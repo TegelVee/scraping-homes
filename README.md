@@ -21,11 +21,16 @@ Sold apartments that had been built in 2010 or later, were on average smaller th
 
 ## New skills learned:
 In this Lede Program project, I strengthened my scraping skills. It makes me especially happy that I was able to solve how to navigate through the changing URL of the webpage and to form a comprehensive dataset.
+
 A new library for me was numpy which I used to make conditions for a new column that I needed to create. This was essential for my project. Without it, it would have been impossible to group same type of apartments together and analyze the data.
+
 I also learned how to clean data by creating my own variable of permitted characters and then write a piece of code using ‘~’ to rule out all results that do not meet rules defined in my variable. 
+
 Third new thing I learned was how to find and delete duplicates.
 
 ## What I still would have liked to do:
 I really wanted to map the data to see, on which neighborhoods the price per square meter was lowest or highest and are there neighboring areas that are totally an opposite for each other. This would have been a choropleth map.
+
 Another nice mapping exercise would have been a location map on which I could have pointed out top 3 most expensive and cheapest homes and offer detailed information about them, e.g. construction year, who owns the plot or on which floor are they located. This could have been a scrolly tell.
+
 From the data analyzes point of view, it would have been also interesting to collect data of the whole metropolitan area that encompasses also cities of Espoo, Kauniainen and Vantaa.
