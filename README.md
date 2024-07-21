@@ -1,13 +1,15 @@
 # Scraping home sales in Helsinki
 
 ## My goal:
-I wanted to practice scraping by getting house sales data from [Asuntojen hintatiedot](https://asuntojen.hintatiedot.fi/haku/) webpage.  It is a database provided by the Finnish Ministry of the Environment, and the data is produced by five big realtors. My aim was to get all data of apartments sold in Helsinki by scraping the page with requests using python in VS Code and analyze it using pandas.
+I wanted to practice scraping by getting house sales data from [Asuntojen hintatiedot](https://asuntojen.hintatiedot.fi/haku/) webpage.  It is a database provided by the Finnish Ministry of the Environment, and the data is produced by five big realtors. 
+
+My aim was to get all data of apartments sold in Helsinki by scraping the page with requests using python in VS Code and analyze it using pandas.
 
 ## Data collection:
-I used requests and BeautifulSoup. On the webpage, the Helsinki data was split on over 40 tabs, which all needed to be fetched to get a comprehensive dataset. Each tab had its own URL and on each tab the data was in table format.
+I used **requests** and **BeautifulSoup**. On the webpage, the Helsinki data was split on over 40 tabs, which all needed to be fetched to get a comprehensive dataset. Each tab had its own URL and on each tab the data was in table format.
 
 ## Data cleaning and analysis:
-The data required a lot of cleaning, because of extra characters and the fact that the data is entered in the system by individual real estate brokers, which makes it somewhat disorganized. I used many basic tools for cleaning (e.g. .isna, .dropna, .replace and changing column types with .astype). I also created new columns in the data frame.
+The data required a lot of cleaning, because of extra characters and the fact that the data is entered in the system by individual real estate brokers, which makes it somewhat disorganized. I used many basic tools for cleaning (e.g. **.isna**, **.dropna**, **.replace** and changing column types with **.astype**). I also created new columns in the data frame.
 
 I had dozens of interesting questions that I wanted to ask my data, e.g. I checked what kind where the most expensive and cheapest flats. First, I wanted to do mapping, but I would have needed more time for cleaning, because there were no postal codes in my data. Also, the result could have been misleading.
 
@@ -17,7 +19,9 @@ I collected the data on July 20, 2024, and it encompassed information of 374 stu
 To have reasonable big comparison groups, I divided the data into groups that include 20 years: flats built before 1929, between 1930 and 1949, between 1950 and 1969 etc.
 
 ## Findings:
-Sold apartments that had been built in 2010 or later, were on average smaller than the ones built in 1970-1989 and 1990-2009. This explains why people feel that home sizes are shrinking. But to compare to previous decades, the true era of small apartments was the time before and after the World War II. It can be said, based on my data, that Helsinki is returning to the era of small apartments. At the same time, it must be remembered, that every year less people live together in a same apartment. Even though apartments get smaller, many people have more space around them to compare to the time of baby boomers. 
+* Sold apartments that had been built in 2010 or later, were on average smaller than the ones built in 1970-1989 and 1990-2009. This explains why people feel that home sizes are shrinking.
+* Compared to previous decades, the true era of small apartments was the time before and after the World War II.
+* Helsinki is returning to the era of small apartments. At the same time, it must be remembered, that every year less people live together in a same apartment. Even though apartments get smaller, many people have more space around them to compare to the time of baby boomers. 
 
 ## New skills learned:
 In this Lede Program project, I strengthened my scraping skills. It makes me especially happy that I was able to solve how to navigate through the changing URL of the webpage and to form a comprehensive dataset.
