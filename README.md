@@ -8,8 +8,11 @@ I used requests and BeautifulSoup. On the webpage, the Helsinki data was split o
 
 ## Data cleaning and analysis:
 The data required a lot of cleaning, because of extra characters and the fact that the data is entered in the system by individual real estate brokers, which makes it somewhat disorganized. I used many basic tools for cleaning (e.g. .isna, .dropna, .replace and changing column types with .astype). I also created new columns in the data frame.
+
 I had dozens of interesting questions that I wanted to ask my data, e.g. I checked what kind where the most expensive and cheapest flats. First, I wanted to do mapping, but I would have needed more time for cleaning, because there were no postal codes in my data. Also, the result could have been misleading.
+
 Eventually I decided to find an answer to a debate concerning modern home sizes. I asked the data, have homes built since 2010 been smaller than earlier. Even though my data does not include all homes existing in Helsinki, it offers a comprehensive material to investigate this question. 
+
 I collected the data on July 20, 2024, and it encompassed information of 374 studios, 755 two-rooms and 583 three-rooms. These are the most popular apartment types to be bought in Helsinki, so I focused on them. In total, the cleaned dataset included information over 2,100 apartments sold in Helsinki during last 12 months. 
 To have reasonable big comparison groups, I divided the data into groups that include 20 years: flats built before 1929, between 1930 and 1949, between 1950 and 1969 etc.
 
