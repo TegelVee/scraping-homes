@@ -1,7 +1,7 @@
 # Scraping home sales in Helsinki
 
 ## My goal:
-I wanted to practice scraping by getting house sale prices from Asuntojen hintatiedot webpage. https://asuntojen.hintatiedot.fi/haku/ It is a database provided by the Finnish Ministry of the Environment, and the data is produced by five big realtors. My aim was to get all data of apartments sold in Helsinki by scraping the page with requests using python in VS Code and analyze it using pandas.
+I wanted to practice scraping by getting house sales data from Asuntojen hintatiedot webpage. https://asuntojen.hintatiedot.fi/haku/ It is a database provided by the Finnish Ministry of the Environment, and the data is produced by five big realtors. My aim was to get all data of apartments sold in Helsinki by scraping the page with requests using python in VS Code and analyze it using pandas.
 
 ## Data collection:
 I used requests and BeautifulSoup. On the webpage, the Helsinki data was split on over 40 tabs, which all needed to be fetched to get a comprehensive dataset. Each tab had its own URL and on each tab the data was in table format.
