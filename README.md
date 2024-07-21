@@ -1,5 +1,8 @@
 # Scraping home sales in Helsinki
 
+Check out a short story I wrote based on scraping, cleaning and analyzing home sales data: [Helsinki is returning to the era of smaller squares
+](https://tegelvee.github.io/scraping-homes/)
+
 ## My goal:
 I wanted to practice scraping by getting house sales data from [Asuntojen hintatiedot](https://asuntojen.hintatiedot.fi/haku/) webpage.  It is a database provided by the Finnish Ministry of the Environment, and the data is produced by five big realtors. 
 
