@@ -1,6 +1,6 @@
 # Scraping home sales in Helsinki
 
-Check out a short story I wrote based on scraping, cleaning and analyzing home sales data: [Helsinki is returning to the era of smaller squares
+Check out the short story I wrote based on scraping, cleaning and analyzing home sales data: [Helsinki is returning to the era of smaller squares
 ](https://tegelvee.github.io/scraping-homes/)
 
 ## My goal:
